@@ -1,0 +1,14 @@
+# Base vectorielle Qdrant de MaintiDoc.
+# Lancement : docker compose up -d      Arrêt : docker compose stop
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.20.2
+    container_name: maintidoc-qdrant
+    ports:
+      - "127.0.0.1:6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage   # les vecteurs sont conservés même si le conteneur est supprimé
+    restart: unless-stopped
+
+volumes:
+  qdrant_data:

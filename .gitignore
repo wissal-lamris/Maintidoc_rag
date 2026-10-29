@@ -1,0 +1,8 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+data/images/*/
+.hf_cache/
+*.zip
+data/uploads/

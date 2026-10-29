@@ -1,0 +1,16 @@
+torch
+llama-index-core
+llama-index-vector-stores-qdrant
+llama-index-embeddings-huggingface
+sentence-transformers
+pillow
+pymupdf4llm
+python-dotenv
+ollama
+langchain
+langchain-ollama
+streamlit
+fastapi
+uvicorn
+python-multipart
+requests
