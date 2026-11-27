@@ -166,6 +166,4 @@ Les résultats sont écrits dans `evaluation/rapport.md` (lisible sur GitHub) et
 ## Limites connues
 
 - Sans GPU, une description d'image prend 1 à 3 minutes et une réponse de l'agent 1 à 3 minutes.
-- Les petits modèles (3 à 4 milliards de paramètres) peuvent se tromper dans la lecture d'un schéma complexe :
-  un modèle plus gros (7B) serait plus précis, mais plus lent.
-- Les PDF scannés (images de pages, sans texte) ne sont pas pris en charge : il n'y a pas de reconnaissance de caractères (OCR).
+
